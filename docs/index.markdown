@@ -4,7 +4,13 @@
 
 layout: home
 ---
+မင်္ဂလာပါခင်ဗျ။
 Hi! I am Kyaw Shin Thant, an undergraduate CS student at The Chinese University
-of Hong Kong. Even though I am majoring in CS, my current interests are in
-algebraic number theory and in particular, class field theory. I like to do
-olympiad geometry problems and play smash ultimate in my free time.
+of Hong Kong (CUHK). I am planning to switch to mathematics in the coming
+summer, and my current interest is in algebraic number theory. Prior to this, I
+took part in the International Mathematical Olympiad in 2019. In my free time, I
+like to solve olympiad geometry problems; my AoPS handle is KST2003, although
+I'm not very active more due to college.
+
+On this site, I'll occasionally post some interesting proofs and theorems that I
+encounter during my studies. I hope you enjoy them!
