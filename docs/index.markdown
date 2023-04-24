@@ -4,8 +4,6 @@
 
 layout: home
 ---
-မင်္ဂလာပါခင်ဗျ။
-
 Hi! I am Kyaw Shin Thant, an undergraduate CS student at The Chinese University
 of Hong Kong (CUHK). I am going to transfer to mathematics in the coming
 summer, and my current interest is in algebraic number theory. Prior to this, I
@@ -16,3 +14,4 @@ include speedcubing and playing Smash Ultimate.
 
 On this site, I'll occasionally post some interesting proofs and theorems that I
 encounter during my studies. I hope you enjoy them!
+$$E = mc^2$$
