@@ -5,8 +5,6 @@ usemathjax: true
 ---
 
 As the first post, I want to write about a very elementary but powerful theorem
-called Minkowski's theorem. \(E = mc^2\)
+called Minkowski's theorem. 
 
-<b>Theorem (Minkowski).</b> Suppose that $$A$$ is a bounded centrally symmetric
-convex set in $$\mathbb{R}^n$$ having volume strictly greater than $$2^n$$. Then
-there is a lattice point in $$A$$ different from the origin.
+$$\sum_{i=1}^n \sum_{j=1}^n \sqrt{|x_i-x_j|}\leqslant \sum_{i=1}^n \sum_{j=1}^n \sqrt{|x_i+x_j|}$$
