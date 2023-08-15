@@ -22,7 +22,7 @@ title: Circles and Lines
 author: Kyaw Shin Thant
 email: kyawshinthant234@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Your weekly dose of hidden mathematical gems
+  Random math content
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: kyawshin.thant.779
