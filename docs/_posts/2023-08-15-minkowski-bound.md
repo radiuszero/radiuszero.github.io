@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Finding the Minkowski's bound"
+title:  "Finding Minkowski's Bound"
 usemathjax: true
 ---
 $$\renewcommand{\Re}{\operatorname{Re}}\renewcommand{\Im}{\operatorname{Im}}\newcommand{\abs}[1]{|#1|}
@@ -41,7 +41,7 @@ The main result that we're going to prove is
 <div class=theorem><b>Theorem 1 (Minkowski's Bound).</b>
 Let \(\mathfrak{A}\) be an integral ideal of \(\mathcal{O}_K\).
 Then there exists an element \(a \in \mathfrak{A}\) such that
-\[ |N_{K/\mathbb{Q}}(a)| \leq \frac{n!}{n} \left(\frac{4}{\pi}\right)^s|\Delta_K|^{1/2} \mathcal{N}(\mathfrak{A}) = M \cdot \mathcal{N}(\mathfrak{A}),\]
+\[ |N_{K/\mathbb{Q}}(a)| \leq \frac{n!}{n^n} \left(\frac{4}{\pi}\right)^s|\Delta_K|^{1/2} \mathcal{N}(\mathfrak{A}) = M \cdot \mathcal{N}(\mathfrak{A}),\]
 where \(M\) is a constant that does not depend on \(\mathfrak{A}\).
 </div>
 
@@ -106,7 +106,7 @@ the absolute value of the determinant of the matrix where the columns are
 $$v_i$$ written in terms of the standard basis.
 
 # Attack plan
-Now let's try to prove the Minkowski's bound at the start of the article.
+Now let's try to prove Minkowski's bound mentioned at the start of the article.
 Remember that $$\mathcal{O}_K$$, and more generally any integral ideal
 $$\mathfrak{A}$$ of $$\mathcal{O}_K$$, is a free $$\mathbb{Z}$$-module of rank
 $$n$$. Therefore, $$\mathfrak{A}$$ forms a lattice in the number field $$K$$.
@@ -128,7 +128,7 @@ bound the norm of this element by constructing $$S$$ in a special way.
 
 # Setup
 As stated before, we first want to embed $$K$$ in $$\mathbb{R}^n$$ in a way that
-respects the additive structure so that we can use the Minkowski's theorem on
+respects the additive structure so that we can use Minkowski's theorem on
 it. A natural idea is to first pick a basis of $$K$$ over $$\mathbb{Q}$$, and
 then map that basis to the standard basis of $$\mathbb{R}^n$$. However, it turns
 out that there is a better way to do it without choosing any particular basis.
