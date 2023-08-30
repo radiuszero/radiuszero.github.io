@@ -30,6 +30,9 @@ github_username:  radiuszero
 aops_id: 472068
 aops_username: KST2003
 
+header_pages:
+  - about.md
+
 # Build 
 markdown: kramdown
 theme: minima
