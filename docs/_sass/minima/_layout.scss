@@ -204,7 +204,7 @@
   
   .post-link {
     display: block;
-    @include relative-font-size(1.5);
+    @include relative-font-size(1.2);
   }
   
   
@@ -270,6 +270,17 @@
     background-color: #cfffdb;
     border-left-style: solid;
     border-left-color: #f05107;
+    border-left-width: 6px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+
+  .lemma {
+    color: black;
+    background-color: #adefd1ff;
+    border-left-style: solid;
+    border-left-color: #00203fff;
     border-left-width: 6px;
     margin-top: 10px;
     margin-bottom: 10px;

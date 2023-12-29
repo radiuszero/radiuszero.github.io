@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Circles and Lines
+title: Kyaw Shin Thant
 author: Kyaw Shin Thant
 email: kyawshinthant234@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Random math content
+  I really really like number theory.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: kyawshin.thant.779
@@ -31,7 +31,9 @@ aops_id: 472068
 aops_username: KST2003
 
 header_pages:
-  - about.md
+  - CV.md
+  - notes.md
+  - blog.md
 
 # Build 
 markdown: kramdown
