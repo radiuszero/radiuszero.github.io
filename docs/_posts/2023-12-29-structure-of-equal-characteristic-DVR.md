@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Structure of complete DVRs"
+title:  "A Particular Case of Cohen Structure Theorem"
 usemathjax: true
 ---
 I was recently going through Serre's *Local Fields* when

@@ -1,13 +1,12 @@
 ---
 layout: page
-permalink: /blog/
 title: Blog
 usemathjax: true
 ---
 Here are my blog posts. I will occasionally write about theorems or lemmas
 that I come across which are particularly neat or elegant. I originally 
-intended to write mostly about Euclidean geometry techniques, but as you can
-see I failed to do that a long time ago.
+intended to write mostly about Euclidean geometry tools and lemmas, but as 
+you can see I drifted from that goal from the very beginning.
 
 <div>
     {%- if site.posts.size > 0 -%}
