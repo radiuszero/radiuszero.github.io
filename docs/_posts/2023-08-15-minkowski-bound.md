@@ -4,11 +4,12 @@ title:  "Finding Minkowski's Bound"
 usemathjax: true
 ---
 $$\renewcommand{\Re}{\operatorname{Re}}\renewcommand{\Im}{\operatorname{Im}}\newcommand{\abs}[1]{|#1|}
-$$The finiteness of the class group is one of the cornerstone results in
-algebraic number theory. However, many proofs I've read before are unmotivating and
-drenched in symbols, and it's very easy to miss the forest for the trees. The
-key ideas of the proof are really intuitive and beautiful, and in this post, I
-want to show how anyone can come up with it just by trying out natural steps.
+$$The finiteness of the ideal class group is one of the very first arithmetic
+results one learns in algebraic number theory. However, many proofs I've read
+before are unmotivating and drenched in symbols, and it's very easy to miss the
+forest for the trees. The key ideas of the proof are really intuitive and
+beautiful, and in this post I want to show how one can come up with it just by
+following some natural steps.
 
 # Notation and definitions
 In the following, $$K$$ is a number field of degree $$n$$ over $$\mathbb{Q}$$
@@ -26,7 +27,7 @@ we will use $$J_K$$ to denote this group, and $$I_K$$ to denote the subgroup of
 fractional ideals that are principal. The class group $$C_K$$ is defined as the
 quotient group $$J_K/I_K$$.
 
-Given an (integral) ideal $$\mathcal{A}$$ of $$\mathfrak{O}_K$$, we use
+Given an (integral) ideal $$\mathcal{A}$$ of $$\mathcal{O}_K$$, we use
 $$\mathcal{N}(\mathfrak{A})$$ to denote the absolute norm, i.e., the size of the
 ring $$\mathcal{O}_K/\mathfrak{A}$$. This is multiplicative;
 $$\mathcal{N}(\mathfrak{A}\mathfrak{B}) = \mathcal{N}(\mathfrak{AB})$$.
@@ -38,7 +39,9 @@ $$K$$.
 
 # Introduction
 The main result that we're going to prove is
-<div class=theorem><b>Theorem 1 (Minkowski's Bound).</b>
+
+<div class="theorem">
+<span class="theorem-heading"><b>Theorem 1</b> (Minkowski's Bound).</span>
 Let \(\mathfrak{A}\) be an integral ideal of \(\mathcal{O}_K\).
 Then there exists an element \(a \in \mathfrak{A}\) such that
 \[ |N_{K/\mathbb{Q}}(a)| \leq \frac{n!}{n^n} \left(\frac{4}{\pi}\right)^s|\Delta_K|^{1/2} \mathcal{N}(\mathfrak{A}) = M \cdot \mathcal{N}(\mathfrak{A}),\]
@@ -57,17 +60,22 @@ that for any integral ideal $$\mathfrak{A}$$, the ideal class of
 $$\mathfrak{A}^{-1}$$ contains an integral ideal whose norm is less than $$M$$.
 Unsurprisingly, this actually covers all ideal classes. That is,
 
-<div class=proposition><b>Proposition 1.</b>
+<div class="proposition">
+<span class="proposition-heading">Proposition 1.</span>
 Any ideal class in \(C_K\) contains an integral ideal whose norm is less than \(M\).
 </div>
+
 *Proof.* We just have to show that any ideal class in $$C_K$$ contains
 $$\mathfrak{A}^{-1}$$ where $$\mathfrak{A}$$ is an integral ideal. Take any ideal class, and let $$\mathfrak{B}$$ be a fractional ideal in it. Then $$\mathfrak{B}^{-1}$$ is also a fractional ideal, and
 there exists $$b \in \mathcal{O}_K$$ such that $$b\mathfrak{B}^{-1}$$ is an integral ideal (in fact we can take $$b$$ to be any element of $$\mathfrak{B}$$.) Then $$(b\mathfrak{B}^{-1})^{-1} = b^{-1}\mathfrak{B} \in [\mathfrak{B}]$$, so we are done.
 
 Now the proposition below immediately shows what we're looking for.
-<div class=proposition><b>Proposition 2.</b>
+
+<div class="proposition">
+<span class="proposition-heading"> Proposition 2.</span>
 There are only finitely many integral ideals of bounded norm.
 </div>
+
 *Proof.* The proof is actually quite easy. Remember that any prime ideal 
 $$\mathfrak{p}$$ of $$\mathcal{O}_K$$ contains a unique prime number $$p \in 
 \mathbb{Z}$$, and that the norm $$\mathcal{N}(\mathfrak{p})$$ is a power of $$p$$. 
@@ -90,7 +98,7 @@ $$p^{e_i} \leq \mathcal{N}(\mathfrak{p}_i)^{e_i} \leq M$$. This finishes the
 proof.
 
 Since the ideal classes are disjoint (they are the cosets of a group),
-proposition 1 and 2 combined together shows that there are only finitely many
+propositions 1 and 2 combined together shows that there are only finitely many
 ideal classes. i.e., the class group $$C_K$$ is finite.
 
 # A brief review on lattices
@@ -106,25 +114,26 @@ the absolute value of the determinant of the matrix where the columns are
 $$v_i$$ written in terms of the standard basis.
 
 # Attack plan
-Now let's try to prove Minkowski's bound mentioned at the start of the article.
-Remember that $$\mathcal{O}_K$$, and more generally any integral ideal
-$$\mathfrak{A}$$ of $$\mathcal{O}_K$$, is a free $$\mathbb{Z}$$-module of rank
-$$n$$. Therefore, $$\mathfrak{A}$$ forms a lattice in the number field $$K$$.
-What Minkowski's bound shows is that for any such lattice, there is a lattice
-point with quite a small norm relative to the norm of the ideal (which can be
-seen as an analog of the mesh of the lattice.) Right now we have no idea how to
-prove this, but if we are working in $$\mathbb{R}^n$$ instead, there is a
-theorem that can precisely deal with this kind of statement.
+Now let's try to prove the bound mentioned at the start of the article. Remember
+that $$\mathcal{O}_K$$, and more generally any integral ideal $$\mathfrak{A}$$
+of $$\mathcal{O}_K$$, is a free $$\mathbb{Z}$$-module of rank $$n$$. Therefore,
+$$\mathfrak{A}$$ forms a lattice in the number field $$K$$. What Minkowski's
+bound shows is that for any such lattice, there is a lattice point with quite a
+small norm relative to the norm of the ideal (which can be seen as an analog of
+the mesh of the lattice.) The key idea to prove this bound is to translate this
+problem into $$\mathbb{R}^n$$ where there is a theorem that can precisely deal
+with this kind of statement!
 
-<div class=theorem><b>Theorem 2 (Minkowski's Theorem).</b>
-    Let \(S \subseteq \mathbb{R}^n\) be a convex, centrally symmetric (if \(x \in S\) then \(-x \in S\)), compact set containing the origin. Let \(\mathcal{L}\) be a lattice, and let \(d\) be its mesh. If the volume of \(S\) is greater than or equal to \(2^nd\), then \(S\) contains a lattice point of \(\mathcal{L}\).
+<div class="theorem">
+<span class="theorem-heading"><b>Theorem 2</b> (Minkowski's Theorem).</span>
+Let \(S \subseteq \mathbb{R}^n\) be a convex, centrally symmetric (if \(x \in S\) then \(-x \in S\)), compact set containing the origin. Let \(\mathcal{L}\) be a lattice, and let \(d\) be its mesh. If the volume of \(S\) is greater than or equal to \(2^nd\), then \(S\) contains a lattice point of \(\mathcal{L}\).
 </div>
 
 Therefore, what we will try to do is embed $$K$$ in $$\mathbb{R}^n$$ such that
 the image of $$\mathfrak{A}$$ becomes a lattice in $$\mathbb{R}^n$$ instead, and
 construct a set $$S \subseteq \mathbb{R}^n$$ which satisfies the conditions
 above. Then $$S$$ must contain an element of the lattice, and we will be able to
-bound the norm of this element by constructing $$S$$ in a special way.
+bound the norm of this element by choosing $$S$$ in a special way.
 
 # Setup
 As stated before, we first want to embed $$K$$ in $$\mathbb{R}^n$$ in a way that
@@ -141,9 +150,9 @@ $$\phi: K \to \mathbb{C}^n$$ as
 $$ \phi(x) = (\sigma_1(x), \sigma_2(x), \ldots, \sigma_n(x)). $$
 
 By splitting each complex coordinate into the corresponding real and imaginary
-parts, we can turn this into an embedding of $$K$$ in $$\mathbb{R}^{2n}$$. The
-problem with this is that the image of $$\mathfrak{A}$$ will not be a lattice
-anymore since it cannot span $$\mathbb{R}^{2n}$$; the dimension is way too high.
+parts, we can turn this into an embedding of $$K$$ in $$\mathbb{R}^{2n}$$. However,
+this naive way raises an immediate problem; the image of $$\mathfrak{A}$$ will not be a lattice
+anymore since it cannot span $$\mathbb{R}^{2n}$$ as the dimension is way too high.
 Instead of this, we can embed $$K$$ in $$\mathbb{R}^n$$ by throwing away some of
 the redundant information in the above map.
 
@@ -173,7 +182,8 @@ them.
 Now let's check that $$v(\mathfrak{A})$$ is actually a lattice in
 $$\mathbb{R}^n$$.
 
-<div class=proposition><b>Proposition 3.</b>
+<div class="proposition">
+<span class="proposition-heading">Proposition 3.</span>
 Let \(v: K \to \mathbb{R}^n\) be defined as before. Then \(v(\mathfrak{A})\) is a lattice with mesh
 \(2^{-s}\mathcal{N}(\mathfrak{A})|\Delta_K|^{1/2}\).
 </div>
@@ -251,10 +261,11 @@ $$\mathbb{R}^n$$. This is now obvious since the mesh is non-zero. (It is
 well-known that $$\Delta_K$$ is non-zero.)
 
 # Picking a suitable set
-In order to use Minkowski's theorem on the lattice $$v(\mathfrak{A}) \subseteq
+Finally, in order to use Minkowski's theorem on the lattice $$v(\mathfrak{A}) \subseteq
 \mathbb{R}^n$$, we need to pick a suitable convex, centrally symmetric and
 compact set $$S$$ that is big enough. It might seem strange at first, but I
-propose to pick the following set for a suitable value of $$t$$.
+propose to pick the following set for a suitable value of $$t$$ that we are
+going to choose later.
 
 $$
 \begin{multline}
@@ -264,7 +275,7 @@ S = \{ (x_1, x_2, \ldots, x_r, y_{r + 1}, z_{r + 1}, \ldots, z_{r + s}) \mid \\
 $$
 
 This is a centrally symmetric, convex, compact set. The reason why we pick this
-set is that it makes the norm of any element in it very easy to bound. Suppose
+set is because it makes the norm of any element in it very easy to bound. Suppose
 that $$v(a)$$ is in $$S$$ for some $$a \in \mathfrak{A}$$. Then we have
 
 $$ \abs{N_{K/\mathbb{Q}}(a)}^{1/n} = \left(\prod_{i = 1}^n \abs{\sigma_i(a)}\right)^{1/n} \leq \frac{\sum_{i = 1}^n \abs{\sigma_i(a)}}{n} $$
@@ -285,8 +296,9 @@ In order to apply Minkowski's theorem, we must pick a value of $$t$$ such that
 the volume of the set is equal to $$2^n$$ times the mesh. By some calculus, we
 can show that
 
-<div class=proposition><b>Proposition 4.</b>
-The volume of \(S\) (in terms of \(t\)) is \(\dfrac{2^{r - s}\pi^st^n}{n!}\).
+<div class="proposition">
+<span class="proposition-heading">Proposition 4. </span>
+The volume of \(S\) (in terms of \(t\)) is \(2^{r - s}\pi^st^n/n!\).
 </div>
 
 Therefore, it suffices to pick the value of $$t$$ such that
