@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "A Particular Case of Cohen Structure Theorem"
 usemathjax: true
 ---

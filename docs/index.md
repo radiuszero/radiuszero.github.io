@@ -6,7 +6,7 @@ layout: page
 usemathjax: true
 ---
 Hi! I am Kyaw Shin Thant, a junior student majoring in mathematics at the Chinese
-University of Hong Kong (CUHK). My interest is in algebraic number theory. I am also quite active in the math olympiad community in 
+University of Hong Kong (CUHK). My interest is in number theory. I am also quite active in the math olympiad community in 
 Myanmar; I participated in the [International Mathematical Olympiad in 2019](https://www.imo-official.org/participant_r.aspx?id=29077), and since then I've been helping in training my country's IMO team. Aside from math, my other hobbies include speedcubing
 and playing Super Smash Bros. Ultimate with my friends.
 
