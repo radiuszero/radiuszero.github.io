@@ -24,18 +24,16 @@ have taken in CUHK. I have edited them lightly afterwards, but inevitably some t
 # Geometry Handouts
 Here are a bunch of handouts and notes on Euclidean geometry that I wrote mostly
 during the Myanmar team trainings for IMO2020 and IMO2021. They were written
-primarily for internal use, so most of them are very informal and the quality varies a lot. If I have energy in the future I will try to reformat all of them, but
-for now they will likely stay the same.
+primarily for internal use, so most of them are very informal and the quality varies a lot. 
 
-*Moving Points and Linearity* [[pdf]](/public/handouts/moving-points.pdf) - This is about a point moving lemma which is folklore in olympiad geometry. Not
+*Moving Points and Linearity* [[pdf]](/public/handouts/movingpoints.pdf) - This is about a point moving lemma which is folklore in olympiad geometry. Not
 to be confused with moving points from projective geometry.
 
 *Some Properties of the Feuerbach Point* [[pdf]](/public/handouts/feuerbach.pdf) - The existence of the Feuerbach point is usually proven by invoking Casey's
-theorem. Here, I describe a purely synthetic proof of this result and one of its
-interesting properties.
+theorem. Here, I describe a synthetic proof of this result and one of its interesting properties.
 
-*Spiral Similarities and Miquel Points* [[pdf]](/public/handouts/spiral-sim.pdf) - This is a fairly standard exposition on the spiral similarity lemma and its
+*Spiral Similarities and Miquel Points* [[pdf]](/public/handouts/miquel.pdf) - This is a fairly standard exposition on the spiral similarity lemma and its
 applications. A lot of it is taken from Yufei Zhao's [Cyclic Quadrilaterals - The Big Picture](https://yufeizhao.com/olympiad/cyclic_quad.pdf).
 
-*Homotheties* [[pdf]](/public/handouts/homotheties.pdf) - A very short introduction to
+*Homotheties* [[pdf]](/public/handouts/homothety.pdf) - A very short introduction to
 homotheties, and a quick synthetic proof of Monge's theorem.
