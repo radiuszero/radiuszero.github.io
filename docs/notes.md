@@ -17,7 +17,7 @@ Currently, there is only one entry for Grade-11 (Tenth Standard) level exams whi
 These are some of the lecture notes that I took live during mathematics courses that I
 have taken in CUHK. I have edited them lightly afterwards, but inevitably some typos and errors might be still there and they are solely my fault.
 
-*MATH5051 (Abstract Algebra I)*, Fall 2023, taught by Prof. Jiu-Kang Yu [[pdf]](/public/lecture-notes/MATH5051.pdf). This course is one of the best courses I took in CUHK, and I am still learning new things from it every now and then. Prof. Yu is really good at tricking students into learning advanced material without them realizing :) Examples include equivalence between the finite étale covers of $\text{Spec } k$ and finite sets with continuous Galois action, the fact that inner forms of $\text{GL}_2$ are quaternion algebras, and many more.
+*MATH5051 (Abstract Algebra I)*, Fall 2023, taught by Prof. Jiu-Kang Yu [[pdf]](/public/lecture-notes/MATH5051.pdf) - This is one of the best courses I took in CUHK, and I am still learning new things from it every now and then. Prof. Yu is really good at tricking students into learning advanced material without them realizing :) Examples include equivalence between the finite étale covers of $$\text{Spec } k$$ and finite sets with continuous Galois action, the fact that inner forms of $$\text{GL}_2$$ are quaternion algebras, and many more.
 
 *MATH3040 (Fields and Galois Theory)*, Spring 2023, taught by Prof. Michael Mcbreen [[pdf]](/public/lecture-notes/MATH3040.pdf)
 
