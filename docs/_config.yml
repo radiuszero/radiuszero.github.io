@@ -22,7 +22,6 @@ title: Kyaw Shin Thant
 author: Kyaw Shin Thant
 email: kyawshinthant234@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  CUHK
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 facebook_username: kyawshin.thant.779
